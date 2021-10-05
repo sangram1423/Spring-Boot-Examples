@@ -1,10 +1,10 @@
 Global:
-git config --global user.name "Pradhan"
-git config --global user.email youremail@gmail.com
+git config --global user.name "sangram1423"
+git config --global user.email technomsangru@@gmail.com
 
 
-git config user.name "Raznee P" 
-git config user.email youremail@gmail.com
+git config user.name "sangram1423" 
+git config user.email technomsangru@gmail.com
 
 
 Sample git commands: 
@@ -14,3 +14,19 @@ git log: Show you commits
 git add: will add your files to staging area 
 git commit -m "Commit message" : commit  the code mith message
 git push: push your changes to remote repository.
+
+Git Branch and push to remote
+----------------------------------------------
+1. git branch local-branch  --> it will create branch as "local-branch" but it won't push to remote
+2. git checkout local-branch --> It will switch branch from master to local-branch
+#Do some changes and verify the changes and add the changes to the local branch
+3. git add . --> for adding all the changes into local-branch.
+4. git status --> to check modified files are added or not. Added files will come in green color.
+5. git commit -m "Second Commit" --> It will commit the modified files and folders which are recently added into local branch. Still if you check the remote branch no local branches will be there and no changes has not been displayed in master branch. Now check below cmd.
+6. git push -u origin local-branch --> It will push all your changes to your local branch. Now you can see both the local branch and master branch in local branch. You can able to see the your local branch with modified codes. Still remote has not been merged yet, So you can't see any new changes in remote master branch. For that you have send a merge request or use below command to merge (Don't merge without informing to the seniors/ team leads). Send a merge request and let them verify. Once they approve you can merge or ask them to merge to master.
+7. git merge local-branch --> It will merge the local branch to master but still you can't able to see the changes in master because we have not pushed the codes in master/remote. So we need to do git push in master branch.
+8. git push -u origin master --> the newly modified codes will be available in master branch.
+
+
+
+
