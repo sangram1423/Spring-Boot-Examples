@@ -1,0 +1,16 @@
+Global:
+git config --global user.name "Pradhan"
+git config --global user.email youremail@gmail.com
+
+
+git config user.name "Raznee P" 
+git config user.email youremail@gmail.com
+
+
+Sample git commands: 
+git init - will create git repo
+git status: To check what are the untracked or tracked files
+git log: Show you commits 
+git add: will add your files to staging area 
+git commit -m "Commit message" : commit  the code mith message
+git push: push your changes to remote repository.
