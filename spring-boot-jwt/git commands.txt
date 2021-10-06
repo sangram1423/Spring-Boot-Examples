@@ -2,10 +2,8 @@ Global:
 git config --global user.name "sangram1423"
 git config --global user.email technomsangru@@gmail.com
 
-
 git config user.name "sangram1423" 
 git config user.email technomsangru@gmail.com
-
 
 Sample git commands: 
 git init - will create git repo
@@ -27,6 +25,4 @@ Git Branch and push to remote
 7. git merge local-branch --> It will merge the local branch to master but still you can't able to see the changes in master because we have not pushed the codes in master/remote. So we need to do git push in master branch.
 8. git push -u origin master --> The newly modified codes will be available in master branch.
 
-
-
-
+9. Same need to follow for your local branch to remote branch
